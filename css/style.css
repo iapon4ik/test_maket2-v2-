@@ -1,0 +1,513 @@
+body {
+    font-family: "PT sans" serif;
+    line-height: 22px;
+}
+
+.img_logo {
+    max-width  : 100px;
+    width      : 100%;
+    max-height : 100px;
+    height     : 100%;
+    padding-top: 20px;
+}
+
+.container_max {
+    width : 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    height          : 230px;
+    background-color: #dcdcdc;
+    width: 100%;
+}
+
+.header_wrap {
+    max-width      : 1000px;
+    width          : 100%;
+    display        : flex;
+    margin         : 0 auto;
+    justify-content: space-between;
+    padding        : 76px 0;
+}
+
+.info {
+    display  : flex;
+    max-width: 250px;
+    justify-content: space-between;
+}
+
+h1 {
+    color         : #777777;
+    font-size     : 24px;
+    letter-spacing: 0.4;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1.5px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.wrap_info {
+    box-sizing    : border-box;
+    padding-bottom: 10px;
+}
+
+.menu_navigation {
+height: 80px;
+background-color: #777777;
+}
+
+
+.wrap_max_width_menu {
+max-width: 1100px;
+width: 100%;
+height         : auto;
+display        : flex;
+margin         : 0 auto;
+justify-content: space-between;
+padding: 85 0;
+}
+
+ul .menu_item+.menu_item:before {
+    content     : "|";
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul .bt_item+.bt_item::before {
+content: "•" ;
+color: #767676;
+    font-family: "PT Sans";
+font-size: 12px;
+margin-right: 2px;
+}
+
+ul #mikrovoln+#mikronoln::before {
+    content: "•" ;
+    color: #767676;
+        font-family: "PT Sans";
+    font-size: 12px;
+    margin-right: 2px;
+    }
+
+.menu_items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.slider {
+    display: flex;
+    max-width: 1248px;
+    width: 100%;
+  height: auto;
+  margin         : 0 auto;
+  justify-content: space-between;
+}
+
+.wrap_brd_item li+li:before {
+    content     : "/";
+margin-right: 5px;
+margin-left: 5px;
+color:  #767676 ;
+}
+
+.wrap_brd_item {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.breadcrumb {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+  height: auto;
+  margin         : 0 auto;
+  justify-content: space-between;
+  text-align: left
+}
+
+
+.main_container {
+    display: flex;
+    max-width: 1030px;
+    width: 100%;
+    height: auto;
+    margin         : 0 auto;
+    justify-content: space-between;
+    padding-left: 27px;
+}
+
+.wrap_ul_li {
+    margin: auto;
+}
+
+.ul_main_left {
+list-style: none;
+}
+
+.ul_main_left li+li:before {
+    content: none;
+}
+
+.main_left {
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_right {
+    display: flex;
+    max-width: 820px;
+    width: 100%;
+    flex-wrap:wrap ;
+}
+
+.bck_item {
+background-color: #dcdcdc;
+width: 250px;
+height: 380px;
+display: flex;
+margin-right: 15px;
+margin-bottom: 20px;
+}
+
+
+.mn_r_img {
+    width: 210px;
+    height: 209px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.foto_o {
+    flex-direction: column;
+    justify-content: space-between; 
+    max-width: 220px;
+    max-height: 270px;
+    height: 100%;
+    display: flex;
+}
+
+.chainik1 {
+    padding-left: 20px;
+}
+
+.price_img {
+display: flex;
+max-width: 208px;
+width: 100%;
+justify-content: space-between;
+padding: 10px;
+}
+
+.img_on_item_variations {
+    padding-top: 15px;
+}
+
+.img_on_main{
+padding-top: 110px;
+padding-left: 23px;
+}
+
+.pager_class {
+    display: flex;
+    max-width: 210px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 210px;
+}
+
+.pager {
+    letter-spacing: 20.17px;
+    color         : #767676;
+    font-family   : "PT Sans";
+    font-size     : 14px;
+    font-weight   : 400;
+text-decoration: none;
+}
+
+.pager:hover {
+    transform: scaleY(1.5) scaleX(1.1);
+    transition: all 300ms;
+    font-size: 1.2em;
+}
+
+.hr {
+    max-width: 780px;
+    width: 100%;
+    height: 1px;
+    color: #dcdcdc;
+}
+
+.hr_center {
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+.img_sld_1 { 
+    max-width: 1248px;
+    width: 100%;
+    max-height: 462px;
+    height: 100%;
+}
+
+.under_hr {
+    display: flex;
+    flex-direction: row;
+    max-width: 799px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 220px;
+    flex-wrap: wrap;
+    padding-bottom: 202px;
+}
+
+.tx_l {
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tx_r { 
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text_left {
+    max-width: 371px;
+}
+
+.text_right {
+    max-width: 368px;
+}
+
+
+
+footer {
+    background-color: #777777;
+    width: 100%;
+height: 220px
+}
+
+.footer_wrap {
+    display: flex;
+    max-width: 983px;
+    width: 100%;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.o_komp {
+    color      : #777777;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 6px;
+}
+
+.number_style { 
+    font-family: 'Open Sans Condensed';
+    color: #767676;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.info_number {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 256px;
+    height: 100%;
+    max-height: 40px;
+}
+
+.feedback { 
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom  : 3px dashed #b2b2b2;
+    padding-left: 80px;
+}
+
+.menu_item_a {
+    font-family : 'Open Sans Condensed', sans-serif;
+    font-family : 'PT Sans', sans-serif;
+    font-family : 'Roboto', sans-serif;
+    color       : #ffffff;
+    font-family : "PT Sans"; 
+    text-decoration: none;
+    font-size: 30px;
+}
+.menu_item_a:hover {
+        text-decoration: none;
+        border-bottom  : 2px solid #ffffff;
+}
+
+.brd_a { 
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#bt_technic {
+    text-decoration: none;
+}
+
+.a_on_ul_left { 
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.bt_item_a {
+    color: #767676;
+    font-family: "PT Sans";
+font-size: 13px;
+text-decoration: none;
+}
+
+.bt_items {
+    list-style: none;
+    padding-left: 7px;
+}
+
+#bt_underline {
+    text-decoration: underline;
+}
+
+#mikrovoln {
+    color: black;
+    text-decoration: underline;
+}
+
+
+.ul_main_left {
+    line-height: 18px;
+}
+
+.prise_list {
+    color: #444444;
+  font-family: "PT Sans";
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  max-width: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.excel {
+    padding-left: 30px;
+}
+
+.about_item {
+    color: #767676;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400; 
+}
+    
+.price {
+    color: #444444;
+    font-family: "PT Sans";
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    margin-top: 0;
+    padding-top: 13px;
+    padding-left: 11px;
+}
+
+.img_on_item_variations:hover {
+    opacity: 0.6;
+   transform: scaleX(1.2) scaleY(1.2)
+}
+
+.bck_item:hover {
+    opacity: 0.7;
+}
+
+
+.text_left_1 {
+    max-width: 230px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    padding-top: 50px;
+}
+
+.ul_footer {
+    list-style: none;
+    text-decoration: underline;
+    color: #ffffff;
+    line-height: 26px;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 50px;
+padding-right: 190px;
+}
+
+.left_wrap_footer3 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.text_right_wrap {
+    max-width: 170px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 11px;
+}
+
+.lwfimg {
+   display: block;
+   width: 36px;
+   height: 38px;
+   padding-top: 20px;
+   padding-right: 10px;
+}
+
+.rzb {
+    padding-top: 7px;
+}
+
+#text_top_footer {
+    text-decoration: underline;
+}
+
+.number_just {
+    display: flex;
+    flex-direction: column;
+    max-height: 20px;
+    height: 100%;
+padding-bottom: 80px;
+}
