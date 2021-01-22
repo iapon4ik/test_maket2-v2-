@@ -10,23 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-
-
-
-
-
-
+    <link rel="stylesheet" type="text/css" charset="UTF-8"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
 </head>
 
 <body>
-
     <header>
         <div class="header_wrap">
             <div class="info">
                 <div class="img_logo">
-                    <img src="img/logo.png">
+                    <img src="img/logo.png" alt="alt_img">
                 </div>
                 <div class="wrap_info">
                     <h1>Название компании</h1>
@@ -36,14 +31,51 @@
             <div class="info_number">
                 <div class="number_just">
                     <div>
-                        <p class="number_style">+7(499) 777-77-77</p>
+                        <h3 class="number_style">+7(499) 777-77-77</h3>
                     </div>
                     <div>
-                        <p class="number_style"> +7(499) 777-77-77</p>
+                        <h3 class="number_style"> +7(499) 777-77-77</h3>
                     </div>
                 </div>
+                <form action="">
+                    <div id="openModal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title">ОБРАТНАЯ СВЯЗЬ</h3>
+                                    <a href="#close" title="Close" class="close">×</a>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="label_name_form">Ваше имя*
+                                    <div class="name_label_form">
+                                        <input name="name" type="text" class="name_label_form_input"> </p>
+                                    </div>
+                                    <p class="label_name_form">Телефон*
+                                    <div class="number_phone_form">
+                                        <input name="number" type="text" class="name_label_form_input">
+                                        </p>
+                                    </div>
+                                    <p class="label_name_form" >Email*
+                                    <div class="email_label_form">
+                                        <input name="email" type="text" class="name_label_form_input" required id="email_vld" placeholder="Поля обязательно для заполнения">
+                                        </p>
+                                    </div>
+                                    <p class="label_name_form">Сообщение *
+                                    <div class="sms_label_form">
+                                        <input name="sms" type="text" class="name_label_form_input" id="sms_input" >
+                                        </p>
+                                       <!--  <button class="send_form"><a class="button_close_2"
+                                                href="#close">ОТПРАВИТЬ</a></button> -->
+                                        <button class="send_form"><input type="submit" value="Отправить" class="button_close_2"></button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
                 <div>
-                    <a href="#" class="feedback">Обратная связь</a>
+                    <a href="#openModal" class="feedback">Обратная связь</a>
                 </div>
             </div>
         </div>
@@ -62,12 +94,16 @@
             </div>
         </div>
     </div>
-
-    <div class="slider">
-        <img src="img/sld1.png" class="img_sld_1">
+    <div class="container">
+        <ul id="slides">
+            <li class="slide showing"> <img src="img/sld1.png" alt=""></li>
+            <li class="slide"><img src="img/slide2.png"></li>
+        </ul>
+        <div class="buttons">
+            <button class="controls" id="previous">&lt;</button>
+            <button class="controls" id="next">&gt;</button>
+        </div>
     </div>
-
-
     <div class="breadcrumb">
         <div class="wrap_brd">
             <ul class="wrap_brd_item">
@@ -77,20 +113,20 @@
             </ul>
         </div>
     </div>
-
     <container>
         <div class="main_container">
             <div class="main_left">
                 <div class="ul_on_main">
                     <ul class="ul_main_left">
-                        <li><a class="a_on_ul_left" href="#">Автомобили</a></li>
-                        <li><a class="a_on_ul_left" href="#" id="bt_underline">Бытовая техника</a></li>
-                        <ul class="bt_items">
+                        <li ><a class="a_on_ul_left" href="#">Автомобили</a></li>
+                        <li class="hover_display"><a class="a_on_ul_left" href="#" id="bt_underline">Бытовая техника</a></li>
+                        <ul class="bt_items"> 
                             <li class="bt_item"><a href="#" class="bt_item_a" id="mikrovoln">Мирокволновки</a></li>
                             <li class="bt_item"><a href="#" class="bt_item_a"> Холодильники</a></li>
                             <li class="bt_item"><a href="#" class="bt_item_a">Посудомоечные машины</a></li>
                             <li class="bt_item"><a href="#" class="bt_item_a">Чайники</a></li>
                         </ul>
+                    
                         <li><a class="a_on_ul_left" href="#">Мобильная техника</a></li>
                         <li><a class="a_on_ul_left" href="#">Компьютеры</a></li>
                         <li><a class="a_on_ul_left" href="#">Одежда</a></li>
@@ -102,7 +138,6 @@
                     <p class="prise_list"> Прайс-лист</p>
                 </div>
             </div>
-
             <div class="main_right">
                 <div class="bck_item">
                     <div class="foto_o">
@@ -194,9 +229,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     </container>
@@ -223,7 +255,6 @@
                 Москве и Зеленограде.характерные для этого жанра мотивы:
                 неразделённой любви, ухода молодости, угасания души.
             </p>
-
         </div>
         <div class="text_right">
             <p class="tx_r">
@@ -240,12 +271,10 @@
     </div>
     <footer>
         <div class="footer_wrap">
-
             <div>
                 <p class="text_left_1">© 2012–2013 ЗАО «Компания»
                     info@name.ru</p>
             </div>
-
             <div class="left_2_and_3">
                 <ul class="ul_footer">
                     <li class="li_footer"><a class="a_footer">Главная</a></li>
@@ -254,9 +283,7 @@
                     <li class="li_footer"><a class="a_footer">Прайс-лист</a></li>
                     <li class="li_footer"><a class="a_footer">Контакты</a></li>
                 </ul>
-
             </div>
-
             <div class="left_wrap_footer3">
                 <img class="lwfimg" src="img/company.png">
                 <div class="rzb">
@@ -265,8 +292,8 @@
                 </div>
             </div>
         </div>
-
     </footer>
+    <script src="js.js"></script>
 </body>
 
 </html>
